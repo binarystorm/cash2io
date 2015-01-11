@@ -4,4 +4,8 @@
    contain the root `toctree` directive.
 
 User Manual
-=====================================
+***********
+
+Activate Everything !
+=====================
+ 
