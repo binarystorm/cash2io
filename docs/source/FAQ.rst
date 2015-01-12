@@ -48,7 +48,7 @@ Please do not hesitate to contact us if you have questions.
 * Micro SD Card
 * 2 Potential free inputs
 * QR Reader
-* 2.8 LCD Display
+* 2.8\" LCD Display
 * 2 x Relais 10 A / 230V AC
 * DIN Rail Case, IP 65
 * Internal / external 12 V DC power supply
