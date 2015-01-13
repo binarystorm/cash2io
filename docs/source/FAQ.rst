@@ -32,14 +32,27 @@ If the switch is connected to the internet through its ethernet plug, it activat
 at the switch.
 
 
-Can I activate the switch with credit card payments instead of bitcoin?
------------------------------------------------------------------------
+Can I activate the satoshkey switch with credit card payments instead of bitcoin?
+----------------------------------------------------------------------------------
 Satoshkey intends to support other crypto currencies like for example bitUSD in the mid term.
 It is not intended to support activating the switch through credit card payments.
-The satoshkey switch was built with the aim to support bitcoin and other crypty currencies in becoming the number one payment system.
+The satoshkey switch was built with the aim to support bitcoin and other crypto currencies in becoming the number one payment system.
 
 What kind of hardware specs does the satoshkey switch have?
 ------------------------------------------------------------
+The following list gives an overview of the satoshkey switch hardware specs.
+Please do not hesitate to contact us if you have questions.
+
+* ARM Processor Cortex M3 / 32 bit
+* Ethernet Connector
+* Micro SD Card
+* 2 Potential free inputs
+* QR Reader
+* 2.8\" LCD Display
+* 2 x Relais 10 A / 230V AC
+* DIN Rail Case, IP 65
+* Internal / external 12 V DC power supply
+
 
 How do I install the satoshkey switch?
 ---------------------------------------
@@ -52,7 +65,7 @@ Does the satoshkey switch need to be connected to the internet?
 ----------------------------------------------------------------
 The satoshkey switch does NOT need to be connected to the internet.
 If the switch has no internet connection, the user receives a QR-Code after payment.
-The switch is the activated by holding the QR-Code under its scanner.
+The switch is then activated by holding the QR-Code under its scanner.
 
 If the satoshkey switch IS connected to the internet, it will automatically be activated after a payment is received.
 
@@ -63,7 +76,7 @@ The satoshkey switch contains 2 outputs. A service can be defined as a sequence 
 
 Why don't you use NFC instead of QR-Codes?
 -------------------------------------------
-There is still a huge amount of mobile phones that do not support NFC. QR-Codes can be used by any smart phone.
+There is still a majority of mobile phones that do not support NFC. QR-Codes can be used by any smart phone.
 
 Merchant
 ========
@@ -82,7 +95,7 @@ Satoshkey takes a fee of 2% on each payout.
 Is there a minimum price limit for an activation?
 --------------------------------------------------
 The minimum price limit is given by the least amount bitcoin wallets support of transfering.
-Satoshkey recommends to not configure prices below 0.0005 BTC.
+Satoshkey recommends not to configure prices below 0.0005 BTC.
 
 
 
