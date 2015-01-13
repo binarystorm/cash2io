@@ -55,10 +55,22 @@ Registration of a Satoshkey switch:
 Programming of a Satoshkey switch:
 ----------------------------------
 
-* "My Devices" is displayed
-* Click "Instructions"
+* "My Devices-configure" is displayed
+* Click "instructions"
+* "Instructions Test" is displayed
 * Click "create instruction"
-
+* Choose a template and customize the parameters P1 - P5 according to your needs
+* Select an instruction type
+* Choose a category
+  * Switch ON        : Output number 1 or 2 will switch ON for X seconds   
+  * Switch OFF       : Output number 1 or 2 will switch OFF for X seconds  
+  * Ox ON wait 0x ON : Output number 1 will switch ON for X seconds - wait time for X seconds - output number 2 will switch ON for X seconds
+* Name 1 = Name of Service 
+* Currency = Choose Currency
+* Price  = Price in selected Currency for 1 x run
+* No Of Days Valid = Days until expiry
+* No Of Runs Valid = Enter the number of runs for the indicated price   
+* Click "create" 
 
  
 
