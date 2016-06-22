@@ -38,29 +38,31 @@ Registration of a Satoshkey Switch:
 .. image:: ../images/browserLogin.png
 
 
-* Click "Username"
+* Click [Username]
 * Click "My Devices"
+
+.. image:: ../images/myDevices.png
+
 * Click "Create Device"
+
+.. image:: ../images/createDevice.png
+
+* Fill the fields to configure your switch
+
+.. image:: ../images/createDevice.png
+
 * External Id = MAC-Address, every Satoshkey Switch holds a individual code on the backside. Enter this address in the field.
 * Name = Choose your own name for this particular Satoshkey Switch. 
 * Payment-Address = Bitcoin-address where you are controlling the private-key. 
 * Secret = Enter some random password, used to encrypt the message in the programming sequence.
- 
- * Select **ONline** mode = The Satoshkey Switch is activated automatically if the payment shows up. 
- * Select **OFFline** mode = The Satoshkey Switch is activated upon scanning a QR-Code displayed on the switches LCD display.
 
-* Location: Enter the exact location. The service can then be found by "find device" on the `satoshkey.com <http://www.satoshkey.com/device/index>`_ website
+* Optionally enter the location of the Satoshkey Switch: Enter the exact location. The service can then be found by "find device" on the `satoshkey.com <http://www.satoshkey.com/device/index>`_ website
 * Click "Create"
 
 Programming of a Satoshkey Switch:
 ----------------------------------
 
 * Open "My Devices - configure"
-* Click "config code"
-* The resulting QR-Code contains all programming-information for the Satoshkey Switch. 
- 
- * Expose this code to the barcode reader of your Satoshkey Switch in the first 30 seconds after "power on".
-
 * The Satoshkey Switch is now ready to accept instructions. 
     
 Configuration of a Satoshkey Switch
