@@ -34,6 +34,10 @@ Registration of a Satoshkey Switch:
 -----------------------------------
 
 * Login with your username and password
+
+.. image:: ../images/browserLogin.png
+
+
 * Click "Username"
 * Click "My Devices"
 * Click "Create Device"
