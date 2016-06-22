@@ -49,7 +49,7 @@ Registration of a Satoshkey Switch:
 
 * Fill the fields to configure your switch
 
-.. image:: ../images/createDevice.png
+.. image:: ../images/newDeviceForm.png
 
 * External Id = MAC-Address, every Satoshkey Switch holds a individual code on the backside. Enter this address in the field.
 * Name = Choose your own name for this particular Satoshkey Switch. 
