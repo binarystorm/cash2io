@@ -29,18 +29,8 @@ After registering a swich on the web panel, activation sequences can be defined.
 Each sequence is associated with a price tag, name and description. A QR-Code containing the switch id directs the user to a list with services offered by the switch.
 After a payment for a specific sequence is received, the switch activates.
 
-<<<<<<< HEAD
 Can I activate the satoshkey switch with credit card payments instead of bitcoin?
 ----------------------------------------------------------------------------------
-=======
-If the switch is connected to the internet through its ethernet plug, it activates automatically after receiving payment. This allows activating a switch remotely without being physically present
-at the switch.
-
-
-Can I activate the satoshkey switch with credit card payments instead of bitcoin?
-----------------------------------------------------------------------------------
-Satoshkey intends to support other crypto currencies like for example bitUSD in the mid term.
->>>>>>> origin/master
 It is not intended to support activating the switch through credit card payments.
 The satoshkey switch was built with the aim to support bitcoin and other crypto currencies in becoming the number one payment system.
 
@@ -69,28 +59,12 @@ Technical
 
 Does the satoshkey switch need to be connected to the internet?
 ----------------------------------------------------------------
-<<<<<<< HEAD
 Yes.
-=======
-The satoshkey switch does NOT need to be connected to the internet.
-If the switch has no internet connection, the user receives a QR-Code after payment.
-The switch is then activated by holding the QR-Code under its scanner.
-
-If the satoshkey switch IS connected to the internet, it will automatically be activated after a payment is received.
-
->>>>>>> origin/master
 
 How many outputs does the satoshkey switch have?
 -------------------------------------------------
 The satoshkey switch contains 2 outputs. A service can be defined as a sequence of activations of both outputs.
 
-<<<<<<< HEAD
-=======
-Why don't you use NFC instead of QR-Codes?
--------------------------------------------
-There is still a majority of mobile phones that do not support NFC. QR-Codes can be used by any smart phone.
-
->>>>>>> origin/master
 Merchant
 ========
 

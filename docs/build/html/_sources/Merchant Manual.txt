@@ -16,20 +16,14 @@ of your Satoshkey Switch, we would be most happy to help.
  
 Step by Step instructions for registration and setup
 ----------------------------------------------------
-
-Your Satoshkey Switch can be operated:
-
-* **Online** with a connection to the internet
-* **Offline** without connection to the internet
  
 User Registration:
 ------------------
 
-* Open your browser - Firefox, Internet Explorer, Chrome etc. - choose the page `satoshkey.com <http://www.satoshkey.com>`_
+* Open your browser and navigate to `satoshkey.com <http://www.satoshkey.com>`_
 * Open the field "Registration"
 * Choose a username
 * Click "Generate a password", confirm with "o.k."
-* Secure the password somehow
 * Enter your email-address
 * Click "Submit"
 * You will receive an email "email address verification"
@@ -40,6 +34,10 @@ Registration of a Satoshkey Switch:
 -----------------------------------
 
 * Login with your username and password
+
+.. image:: ../images/browserLogin.png
+
+
 * Click "Username"
 * Click "My Devices"
 * Click "Create Device"
