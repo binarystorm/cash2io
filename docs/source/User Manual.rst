@@ -20,7 +20,9 @@ Prerequisites
 Step by Step instructions
 -------------------------
 Open the barcode-reader on your mobile.
+
 Catch the QR-Code of the desired service with the camera. 
+
 Center and wait till focused. 
 
 *"satoshkey.com/instruction/pay" shows up*
