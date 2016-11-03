@@ -20,20 +20,12 @@ Prerequisites
 Step by Step instructions
 -------------------------
 Open the barcode-reader on your mobile.
-Catch the QR-Code on the Satoshkey Screen with the camera. 
+Catch the QR-Code of the desired service with the camera. 
 Center and wait till focused. 
 
- *Link shows up*
-Tip the link
- *The menu shows up* 
-Tip the desired service "order now"
- *The price is indicated*
-Tip "pay with bitcoin"
- *The bitcoin wallet opens up, receiver address and amount is indicated* 
+ * "satoshkey.com/instruction/pay" shows up*
+Tap the QR-Code to open your bitcoin wallet 
+ *The wallet opens up* 
 Tip "send"
- *The payment shows up* 
-Tip "return to satoshkey"
-
- Satoshkey-Screen turns **green** immediately
  
- The desired service is now available ! 
+*The desired service is now available !*
