@@ -34,15 +34,6 @@ Tip "send"
  *The payment shows up* 
 Tip "return to satoshkey"
 
-Satoshkey Switch **connected** to the internet: 
------------------------------------------------
  Satoshkey-Screen turns **green** immediately
- 
- The desired service is now available !
-
-Satoshkey Switch **not** connected to the internet:
---------------------------------------------------- 
- *QR-code shows up on the phone*, make sure that the code is completely viewable on the screen.
- Expose the the QR-code to the Satoshkey Switch QR-reader in a distance between 10 - 20 cm until the screen turns **green**.
  
  The desired service is now available ! 
