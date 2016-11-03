@@ -23,7 +23,7 @@ Open the barcode-reader on your mobile.
 Catch the QR-Code of the desired service with the camera. 
 Center and wait till focused. 
 
-*satoshkey.com/instruction/pay shows up*
+ *satoshkey.com/instruction/pay shows up*
 Tap the QR-Code to open your bitcoin wallet 
  *The wallet opens up* 
 Tip "send"
