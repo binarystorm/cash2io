@@ -3,40 +3,37 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Merchant Manual 
-***************
+User Manual 
+************
  
-Activate Everything !
-=====================
- 
-Congratulations on purchasing your Satoshkey Universal Digital Currency Switch ! It has been carefully constructed and tested in Switzerland. Please read this manual carefully. It 
-will help you make the most of your Satoshkey Switch. Most problems you may encounter will be minor and the manual will provide an answer. Please feel free
+Congratulations on purchasing your satoshkey Universal Digital Currency Switch ! It has been carefully constructed and tested in Switzerland. Please read this manual carefully. It 
+will help you make the most of your satoshkey switch. Most problems you may encounter will be minor and the manual will provide an answer. Please feel free
 to contact us if you have unanswered questions relating to operation or maintenance. Also, if you have technical questions to expanding the functions
-of your Satoshkey Switch, we would be most happy to help. 
+of your satoshkey switch, we would be most happy to help. 
  
-Step by Step instructions for registration and setup
-----------------------------------------------------
- 
-User Registration:
-------------------
+Registration and setup
+======================
 
-* Open your browser and navigate to `satoshkey.com <http://www.satoshkey.com>`_
-* Open the field "Registration"
-* Choose a username
-* Click "Generate a password", confirm with "o.k."
-* Enter your email-address
-* Click "Submit"
-* You will receive an email "email address verification"
-* Click on the activation-link
-* A new window opens in the browser
+Setting up the satoshkey switch
+-------------------------------
+After powering on, you can connect to the satoshkey switch using WiFi.
+Connect to the network with SSID: SATOSHKEY.
+Navigate your browser to 192.168.1.1
 
-Registration of a Satoshkey Switch:
------------------------------------
+.. image:: ../images/webInterface.png
 
-* Login with your username and password
+* SSID: The identifier of the WiFi network you want the satoshkey switch to connect to. If you intend to connect the satoshkey switch only via Ethernet cable you can leave this empty.
+* PSK: The password used to connect to the Wifi network. If you intend to connect the satoshkey switch only via Ethernet cable you can leave this empty.	
+* Password: Enter a passwort that is used to exchange messages with this satoshkey switch.
+
+
+Registering the satoshkey switch 
+---------------------------------
+
+* Navigte to www.satoshkey.com and register an account.
+* Login with your username and password.
 
 .. image:: ../images/browserLogin.png
-
 
 * Click [Username]
 * Click "My Devices"
@@ -47,46 +44,91 @@ Registration of a Satoshkey Switch:
 
 .. image:: ../images/createDevice.png
 
-* Fill the fields to configure your switch
+* Fill in the fields to configure your switch
 
 .. image:: ../images/newDeviceForm.png
 
-* External Id = MAC-Address, every Satoshkey Switch holds a individual code on the backside. Enter this address in the field.
-* Name = Choose your own name for this particular Satoshkey Switch. 
-* Payment-Address = Bitcoin-address where you are controlling the private-key. 
-* Secret = Enter some random password, used to encrypt the message in the programming sequence.
+* External Id: The MAC-Address of your satoshkey switch. This address is displayed on the back of your device.
+* Name: The name of the satoshkey switch.
+* Description: The description for the satoshkey switch.
+* Secret = A password to secure the communication to your satoshkey switch.
 
-* Optionally enter the location of the Satoshkey Switch: Enter the exact location. The service can then be found by "find device" on the `satoshkey.com <http://www.satoshkey.com/device/index>`_ website
+* Optionally enter the location of the satoshkey switch: Enter the exact location. The service can then be found by "find device" on the `satoshkey.com <http://www.satoshkey.com/device/index>`_ website
 * Click "Create"
-
-Programming of a Satoshkey Switch:
-----------------------------------
-
-* Open "My Devices - configure"
-* The Satoshkey Switch is now ready to accept instructions. 
     
-Configuration of a Satoshkey Switch
------------------------------------
+Defining Instructions
+---------------------
+An instruction is a switching sequence with an associated price and bitcoin address for receiving payments.
 
-* Open "My Devices-configure" 
-* Click "instructions"
-* "Instructions Test" is displayed
-* Click "create instruction"
-* Choose a template and customize the parameters P1 - P5 according to your needs
-* Select an instruction type
-* Choose a category
+* Click the "instructions" button 
 
- * Switch **ON**        : Output (number 1 or 2) will switch ON for X seconds   
- * Switch **OFF**       : Output (number 1 or 2) will switch OFF for X seconds  
- * **O1** **ON** **WAIT** **O2** **ON** : Output number 1 will switch ON for X seconds - wait time for X seconds - output number 2 will switch ON for X seconds
+.. image:: ../images/instructionsButton.png
+
+* Choose the instruction type
+
+.. image:: ../images/instructionType.png
+
+
+	* Switch **ON**        : Output (number 1 or 2) will switch ON for X seconds   
+	* Switch **OFF**       : Output (number 1 or 2) will switch OFF for X seconds  
+	* **O1** **ON** **WAIT** **O2** **ON** : Output number 1 will switch ON for X seconds - wait time for X seconds - output number 2 will switch ON for X seconds
+	
+* Fill in the fields to define an instruction
+
+.. image:: ../images/newInstructionForm.png
  
-* Name = Name of service
-* Description = Any desired additional information 
-* Currency = Choose currency
-* Price  = Price in selected currency for 1 x run
-* No Of Days Valid = Days until expiration
-* No Of Runs Valid = Number of runs for the indicated price   
+* Name = Name of the instruction
+* Description = Description of the instruction
+* Price  = The price in the selected currency
+* Currency = The currency used to display the price
+* Payment Address = The bitcoin address to receive payments for this instruction.
+* No Of Runs Valid = Number of runs for the indicated price. The default value of 1 is recommended.
+
+
 * Click "create" 
+
+
+Activating the switch
+=====================
+The satoshkey switch is activated once a payment to a bitcoin address configured for an instruction is received.
+In order to list instructions defined on a particular switch, use the "Find Device" button.
+
+* Click "Find Device" and use the filter to find the satoshkey switch you intend to activated
+* Click the "activate" button
+
+.. image:: ../images/findDevice.png
+
+All instructions defined on the selected satoshkey switch are listed.
+
+* Click on the "pay" with bitcoin button next to the instruction you want to activate
+
+.. image:: ../images/instructionsList.png
+
+* Scan the barcode displayed and pay to the displayed address
+
+.. image:: ../images/payment.png
+
+Note the progress bar displayed below the QR code. If a currency different from BTC is configured, satoshkey calculates the price in the configured currency.
+The progress bar illustrates the period during which the displayed price is valid. After the time elapses, the price is recalculated. This is due to exchange rate volatility.
+
+Statistics
+==========
+In the statistics section of the satoshkey web portal you can retrieve several statistics.
+
+* Log in to www.satoshkey.com
+* Click the "statistics" menu entry
+
+.. image:: ../images/statsMenu.png
+
+Transactions
+------------
+The transactions history provides an overview about every transaction that appeared on satoshkey switches registered with your account.
+Different color codes illustrate the result of the transaction. The "delta" displays the difference between the configured price (calculated to BTC) for the instruction and the effective payment.
+Transaction for which this delta is not 0 are marked as under or over-payments.
+
+.. image:: ../images/statsTxs.png
+
+
 
 
  
