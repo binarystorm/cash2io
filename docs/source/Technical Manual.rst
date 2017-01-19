@@ -21,3 +21,8 @@ Follow the steps described below.
 * Upload the file for the new firmware
 * The switch reboots with the new firmware
 * Repeat the process if an error should occur in any of the steps described above
+
+Schematic
+---------
+The following picture illustrates the schematic.
+.. image:: ../images/schema.png
