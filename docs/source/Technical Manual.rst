@@ -25,4 +25,8 @@ Follow the steps described below.
 Schematic
 ---------
 The following picture illustrates the schematic.
+
 .. image:: ../images/schema.png
+
+
+
