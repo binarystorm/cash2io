@@ -11,8 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-   FAQ
    User Manual
+   FAQ
    ...
    
 
