@@ -9,8 +9,12 @@ Welcome to the cash2io documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 3 
+   :maxdepth: 3
+
+   FAQ
+   User Manual
    ...
+   
 
 Indices and tables
 ==================
