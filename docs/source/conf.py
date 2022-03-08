@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# satoshkey documentation build configuration file, created by
+# cash2io documentation build configuration file, created by
 # sphinx-quickstart on Wed Jan 07 21:34:54 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -45,8 +45,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'satoshkey'
-copyright = u'2015, satoshkey'
+project = u'cash2io'
+copyright = u'2015, cash2io'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -178,7 +178,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'satoshkeydoc'
+htmlhelp_basename = 'cash2iodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -198,8 +198,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'satoshkey.tex', u'satoshkey Documentation',
-   u'satoshkey', 'manual'),
+  ('index', 'cash2io.tex', u'cash2io Documentation',
+   u'cash2io', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -228,8 +228,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'satoshkey', u'satoshkey Documentation',
-     [u'satoshkey'], 1)
+    ('index', 'cash2io', u'cash2io Documentation',
+     [u'cash2io'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -242,8 +242,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'satoshkey', u'satoshkey Documentation',
-   u'satoshkey', 'satoshkey', 'One line description of project.',
+  ('index', 'cash2io', u'cash2io Documentation',
+   u'cash2io', 'cash2io', 'One line description of project.',
    'Miscellaneous'),
 ]
 

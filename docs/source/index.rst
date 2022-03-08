@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to satoshkey's documentation!
+Welcome to the cash2io documentation!
 =====================================
 
 Contents:
@@ -11,9 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 3
 
-   FAQ   
-   Merchant Manual
-   Technical Manual
+   User Manual   
+   FAQ
    ...
 
 Indices and tables
